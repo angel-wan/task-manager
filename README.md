@@ -1,27 +1,67 @@
-# React + TypeScript + Vite
+# Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Task Management App is a powerful tool that simplifies your task management process. With this app, you can effortlessly add, view, and delete tasks, each with a title, due date, and category. Built with modern technologies like React, TypeScript, React Bootstrap, Formik, and Yup, it showcases the best practices for building user-friendly applications.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Usage](#usage)
+- [Tech Stack](#tech-stack)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Task Management**: Add, view, and delete tasks.
+- **Data Validation**: Input validation ensures data integrity.
+- **Categories**: Categorize your tasks as Work, Personal, or School.
+- **Intuitive UI**: A user-friendly interface for easy task management.
+- **Modern Tech Stack**: Built with React, TypeScript, React Bootstrap, Formik, and Yup.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Follow these steps to set up and run the Task Management App on your local machine.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/task-management-app.git
+   ```
+
+2. Navigate to the Project Folder:
+
+   ```bash
+   cd task-management-app
+   ```
+
+3. Install Dependencies:
+
+   ```bash
+   npm install
+   ```
+
+### Usage
+
+1. Start the Development Server:
+
+   ```bash
+   npm start
+   ```
+
+2. Open in Your Browser:
+
+Open your web browser and access the app at http://localhost:5173.
+
+## Tech Stack
+
+React: A popular JavaScript library for building user interfaces.
+TypeScript: A statically typed superset of JavaScript.
+React Bootstrap: React components for Bootstrap.
+Formik: A form library for React applications.
+Yup: A schema validation library.
+
+Thank you for using the Task Management App. If you have any questions or encounter any issues, please don't hesitate to reach out. We hope this app simplifies your task management process.
